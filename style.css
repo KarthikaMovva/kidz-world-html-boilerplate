@@ -131,53 +131,54 @@
     align-items: center;
     align-content: center;
     padding: 1px 1px 2px;}
-  #box{
+  /* #box{
     border: 1px solid black;
     margin-top: 150px;
     /* padding-top: 3px; */
-    padding-left: 75px;
+    /* padding-left: 75px;
     background-color: black;
-  }
-  .intro{
-    color: white;
+  } */ */
+  /* .intro{
+    color: white; */
     /* padding-top: 10px; */
-    padding-bottom: 3px;
+    /* padding-bottom: 3px;
     font-size: x-large;
     padding-left: 20px;
-  }
-  .krishti{
-    border-radius: 100px;
-    margin-top: 10px;
-  }
-  .name{
+  } */
+  .kar{
+    /* height: 150px;
+    width: 150px; */
+    border-radius: 50%;
+   }
+  /* .name{
     color: white;
-    padding-left: 1200px;
+    padding-left: 1200px; */
     /* padding-right: 1px; */
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-bottom: 5px;
     height: 20px;
     width: 10px;
-    padding-top: 0px;
+    padding-top: 0px; */
    /* margin-bottom: 150px; */
    /* margin-top: 1px; */
    /* border: 1px solid white; */
 
-  }
-  .end{
+  /* } */
+  /* .end{
     color: white;
-    padding-left: 1200px;
+    padding-left: 1200px; */
     /* padding-right: 1px; */
-    margin-top: 10px;
-    margin-bottom: 5px;
+    /* margin-top: 10px;
+    margin-bottom: 5px; */
     /* height: 20px;
     width: 1px; */
-    padding-top: 0px;
-    padding-left: 1200px;
+    /* padding-top: 0px;
+    padding-left: 1200px; */
     /* border: 1px solid white; */
    /* margin-bottom: 150px; */
    /* margin-top: 1px; */
 
-  }
+  /* } */
   .a1{
     border: 1px solid black;
     padding-right: 10px;
@@ -192,3 +193,107 @@
   .bill{
     display: flex;
   }
+  .black{
+    border: 1px solid white;
+    padding: 0% 5%;
+    background-color: black ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+  }
+@media (max-width: 600px){
+  #logo1{
+  /* margin-left: 10px;
+  border: 1px solid black;} */
+  flex-wrap: wrap;}
+  
+  .logo{
+    display: flex wrap;
+    margin-left: 35px;
+  }
+
+  .background{
+      width: 100%;}
+
+    .row1{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .games{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .made{
+      flex-wrap: wrap;
+    }
+    .i1{
+      margin-bottom: 30px;
+    }
+    .heading1{
+      margin-top: 30px;
+      /* border: 1px solid black; */
+      padding-left: 70px;
+    }
+    .heading2{
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-right: 20px;
+      margin-left: 60px;
+      /* text-align: start; */
+      /* border: 1px solid black; */
+    }
+    .heading3{
+      margin-top: 30px;
+      padding-right: 5px;
+      padding-left: 5px;
+      margin-left: 70px;
+      /* border: 1px solid black; */
+    }
+   
+    .name{
+      color: white;
+      padding-left: 20px;
+      /* padding-right: 1px; */
+      margin-top: 10px;
+      margin-bottom: 5px;
+      height: 20px;
+      width: 10px;
+      padding-top: 0px;
+     /* margin-bottom: 150px; */
+     /* margin-top: 1px; */
+     /* border: 1px solid white; */
+  
+    }
+    /* .end{
+      color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   padding-top: 0px;
+   padding-right: 100px;
+    margin-left: 20px;
+    
+    border: 1px solid white;
+   } */
+      .text{
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        text-align: start;
+          line-height: 55px; }
+    /* .h4{
+      position: absolute;
+      border: 1px solid white;
+    } */
+   /* .name{
+    border: 1px solid white;
+   }     */
+  .para{
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: right;
+
+  }
+}
